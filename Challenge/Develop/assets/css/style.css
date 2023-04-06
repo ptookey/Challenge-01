@@ -1,12 +1,18 @@
+/*This is universal and applies to all*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This applies to the body*/
+
 body {
     background-color: #d9dcd6;
 }
+
+/*This section is for the header*/
 
 header {
     padding: 20px;
@@ -41,14 +47,20 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/*This is for the hyperlinks*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This sets the body font size*/
+
 p {
     font-size: 16px;
 }
+
+/*This is the main photo*/
 
 #hero {
     height: 800px;
@@ -58,6 +70,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/*This section changes the side the image is displayed on the cards*/
 
 .float-left {
     float: left;
@@ -69,11 +83,15 @@ p {
     margin-left: 25px;
 }
 
+/*This section affects the blocks for the cards in the main section*/
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*This section applies to the aside*/
 
 .aside1 {
     margin-right: 20px;
@@ -91,7 +109,7 @@ p {
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefit h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -101,6 +119,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*This section applies to the three cards in the main section*/
 
 .card {
     margin-bottom: 20px;
@@ -119,6 +139,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*This section applies to the footer*/
 
 footer {
     padding: 30px;
